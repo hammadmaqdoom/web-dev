@@ -33,5 +33,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ http://jumpy-motion.surge.sh/ --tokesn ${{secrets.SURGE_TOKEN}}
+        run: surge ./ http://jumpy-motion.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
 
